@@ -31,5 +31,7 @@ function health (params) {
     });
 }
 
-exports.sayHello = sayHello;
-exports.health  = health ;
+module.exports = {
+    sayHello: sayHello,
+    health: health
+}
